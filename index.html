@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/normalize.css">
+    <!-- <link rel="stylesheet" href="css/normalize.css"> -->
     <title>Producty Sample</title>
 </head>
 <body>
@@ -37,12 +37,14 @@
     </header>
 
     <main>
-        <section class="section top__section">
+        <section class="top__section">
             <div class="top__text">
                 <h1 class="h1">The Design Thinking superpowers</h1>
                 <p class="top-section__text">Tools, tutorials, design and innovation experts, all in one place! The most intuitive way to imagine your next user experience.</p>
-                <button class="orange__btn start__btn" type="button">Get started</button>
-                <a href="#" class="video__link"><img src="image/play-icon.svg" alt="play_icon" class="play__icon">Watch the Video</a>
+                <div class="top__btns">
+                    <button class="orange__btn start__btn" type="button">Get started</button>
+                    <a href="#" class="video__link"><img src="image/play-icon.svg" alt="play_icon" class="play__icon">Watch the Video</a>
+                </div>
             </div>
             <div class="top__img">
                 <img src="image/top-banner-img.png" alt="top-section-image">
@@ -53,22 +55,30 @@
             <h2 class="h2">We design tools to unveil your superpowers</h2>
             <div class="blocks">
                 <div class="test__block first__test">
-                    <img src="image/arrow_icon.svg" alt="arrow_icon">
+                    <div class="arrow_icon block__icon">
+                        <img src="image/arrow.svg" alt="arrow" class="arrow__img">
+                    </div>
                     <h4 class="h4">First click tests</h4>
                     <p class="text">While most people enjoy casino gambling,</p>
                 </div>
                 <div class="test__block surveys">
-                    <img src="image/surveys_icon.svg" alt="surveys_icon">
+                    <div class="survey_icon block__icon">
+                        <img src="image/survey.svg" alt="survey" class="survey__img">
+                    </div>
                     <h4 class="h4">Design surveys</h4>
                     <p class="text">Sports betting, lottery and bingo playing for the fun</p>
                 </div>
                 <div class="test__block pref__test">
-                    <img src="image/heart_icon.svg" alt="heart_icon">
+                    <div class="heart_icon block__icon">
+                        <img src="image/heart.svg" alt="heart" class="heart__img">
+                    </div>
                     <h4 class="h4">Preference tests</h4>
                     <p class="text">The Myspace page defines the individual.</p>
                 </div>
                 <div class="test__block last__test">
-                    <img src="image/clock_icon.png" alt="clock_icon">
+                    <div class="clock_icon block__icon">
+                        <img src="image/clock.svg" alt="clock" class="clock__img">
+                    </div>
                     <h4 class="h4">Five second tests</h4>
                     <p class="text">Personal choices and the overall personality of the person. </p>
                 </div>
@@ -125,7 +135,7 @@
         </section>
 
         <section class="section mid_btm__section">
-            <div class="text mid_btm__text">
+            <div class="text btm__text">
                 <span class="mid_btm__text">Optimisation for</span>
                 <h3 class="h3 mid_btm__h3">Marketers</h3>
                 <p class="text mid_btm__text">
@@ -155,7 +165,7 @@
         <div class="logo ftr__logo">
             <img src="image/main__logo.svg" alt="logo-image">
         </div>
-        <div class="contacts contacts__block">
+        <div class="ftr__info contacts__block">
             <ul class="list contact__list">
                 <li>About Us</li>
                 <li>Blog</li>
@@ -163,7 +173,7 @@
                 <li>FAQ</li>
             </ul>
         </div>
-        <div class="info info__block">
+        <div class="ftr__info info__block">
             <ul class="list info__list">
                 <li>Disclaimer</li>
                 <li>Financing</li>
