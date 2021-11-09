@@ -25,16 +25,19 @@ body {
   height: 32px;
 }
 
-.nav {
-  list-style-type: none;
-  display: flex;
-  justify-content: flex-start;
-  font-size: 14px;
-  align-items: center;
-  flex-wrap: wrap;
+.navigation {
+  width: 60%;
 }
 
-.nav > li {
+.nav {
+  display: flex;
+  list-style-type: none;
+  font-size: 14px;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+ul > li {
   margin-left: 15px;
 }
 
@@ -63,6 +66,7 @@ a {
 }
 
 .up__btn {
+  margin-left: 15px;
   padding: 11px 24px;
   cursor: pointer;
 }
