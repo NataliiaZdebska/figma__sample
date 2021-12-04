@@ -5,183 +5,227 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>Producty Sample</title>
 </head>
-<body>
+<body class="body">
     <header class="header">
-        <div class="logo">
-            <img src="image/main__logo.svg" alt="logo-image">
+        <div class="header__logo">
+            <a href="#" class="header__logo_link">
+                <img src="image/main__logo.svg" alt="logo" class="logo__img">
+            </a>
         </div>
-        <div class="navigation">
-            <ul class="nav">
-                <li>
+        <div class="nav">
+            <ul class="nav__list">
+                <li class="nav__item">
                     <a href="#">Product</a>
                 </li>
-                <li>
+                <li class="nav__item">
                     <a href="#">Customers</a>
                 </li>
-                <li>
+                <li class="nav__item">
                     <a href="#">Pricng</a>
                 </li>
-                <li>
+                <li class="nav__item">
                     <a href="#">Resources</a>
                 </li>
             </ul>
-        </div>
-        <div class="btn__block">
-            <button class="in__btn" type="button">Sign In</button>
-            <button class="orange__btn up__btn" type="button">Sign Up</button>
+            <div class="btn__block">
+                <a href="#" class="in__btn">Sign In</a>
+                <a href="#" class="orange__btn up__btn">Sign Up</a>
+            </div>
+            <div class="header__burger">
+                <span></span>
+            </div>
         </div>
     </header>
 
     <main>
-        <section class="section top__section">
-            <div class="top__text">
-                <h1 class="h1">The Design Thinking superpowers</h1>
+        <section class="top-section">
+            <div class="top-section__desc">
+                <h1 class="top-section__title">The Design Thinking superpowers</h1>
                 <p class="top-section__text">Tools, tutorials, design and innovation experts, all in one place! The most intuitive way to imagine your next user experience.</p>
-                <div class="top__btns">
-                    <button class="orange__btn start__btn" type="button">Get started</button>
-                    <a href="#" class="video__link"><img src="image/play-icon.svg" alt="play_icon" class="play__icon">Watch the Video</a>
+                <div class="top-section__btns">
+                    <a href="#" class="orange__btn start__btn">Get started</a>
+                    <a href="#" class="video__link">
+                        <img src="image/play-icon.svg" alt="play_icon" class="play__icon">
+                        Watch the Video
+                    </a>
                 </div>
             </div>
-            <div class="top__img">
-                <img src="image/top-banner-img.png" alt="top-section-image">
+            <div class="top-section__img">
+                <img src="image/top-banner-img.png" alt="top-img" class="top_img">
             </div>
         </section>
 
-        <section class="container">
-            <h2 class="h2">We design tools to unveil your superpowers</h2>
-            <div class="blocks">
-                <div class="test__block first__test">
-                    <div class="arrow_icon block__icon">
-                        <img src="image/arrow.svg" alt="arrow" class="arrow__img">
+        <section class="benefits">
+            <h2 class="benefits__title">We design tools to unveil your superpowers</h2>
+            <div class="benefits__blocks">
+                <div class="test__block first__block">
+                    <div class="block__icon first__block_icon">
+                        <img src="image/arrow.svg" alt="arrow" class="first__block_img">
                     </div>
-                    <h4 class="h4">First click tests</h4>
-                    <p class="text">While most people enjoy casino gambling,</p>
+                    <h3 class="test__block_title">First click tests</h3>
+                    <p class="test__block_text">While most people enjoy casino gambling,</p>
                 </div>
-                <div class="test__block surveys">
-                    <div class="survey_icon block__icon">
-                        <img src="image/survey.svg" alt="survey" class="survey__img">
+                <div class="test__block second__block">
+                    <div class="block__icon second__block_icon">
+                        <img src="image/survey.svg" alt="survey" class="second__block_img">
                     </div>
-                    <h4 class="h4">Design surveys</h4>
-                    <p class="text">Sports betting, lottery and bingo playing for the fun</p>
+                    <h3 class="test__block_title">Design surveys</h3>
+                    <p class="test__block_text">Sports betting, lottery and bingo playing for the fun</p>
                 </div>
-                <div class="test__block pref__test">
-                    <div class="heart_icon block__icon">
-                        <img src="image/heart.svg" alt="heart" class="heart__img">
+                <div class="test__block third__block">
+                    <div class="block__icon third__block_icon">
+                        <img src="image/heart.svg" alt="heart" class="third__block_img">
                     </div>
-                    <h4 class="h4">Preference tests</h4>
-                    <p class="text">The Myspace page defines the individual.</p>
+                    <h3 class="test__block_title">Preference tests</h3>
+                    <p class="test__block_text">The Myspace page defines the individual.</p>
                 </div>
-                <div class="test__block last__test">
-                    <div class="clock_icon block__icon">
-                        <img src="image/clock.svg" alt="clock" class="clock__img">
+                <div class="test__block fourth__block">
+                    <div class="block__icon fourth__block_icon">
+                        <img src="image/clock.svg" alt="clock" class="fourth__block_img">
                     </div>
-                    <h4 class="h4">Five second tests</h4>
-                    <p class="text">Personal choices and the overall personality of the person. </p>
+                    <h3 class="test__block_title">Five second tests</h3>
+                    <p class="test__block_text">Personal choices and the overall personality of the person. </p>
                 </div>
             </div>
-            <button class="orange__btn sign-now__btn" type="button">SIGN UP NOW</button>
+            <div class="benefits__btn">
+                <a href="#" class="orange__btn sign-now__btn">SIGN UP NOW</a>
+            </div>
         </section>
 
-        <section class="section mid__section">
-            <div class="text mid__sec__text">
-                <span class="mid__text">Effortless Validation for</span>
-                <h3 class="h3 mid__h3">Design Professionals</h3>
-                <p class="text mid__text">
+        <section class="block top-block">
+            <div class="block__desc">
+                <span class="block__suptitle">Effortless Validation for</span>
+                <h2 class="block__title">Design Professionals</h2>
+                <p class="block__text prof-description">
                     The Myspace page defines the individual, his or her characteristics, traits, personal choices and the overall personality of the person.
                 </p>
-                <h5 class="h5">Accessory makers</h5>
-                <p class="text mid__text">
-                    While most people enjoy casino gambling, sports betting, lottery and bingo playing for the fun
-                </p>
-                <h5 class="h5">Alterationists</h5>
-                <p class="text mid__text">
-                    If you are looking for a new way to promote your business that won’t cost you more money,
-                </p>
-                <h5 class="h5">Custom Design designers</h5>
-                <p class="text mid__text">
-                    If you are looking for a new way to promote your business that won’t cost you more money, 
-                </p>
+                <div class="top-block__list">
+                    <div class="block__item">
+                        <h4 class="block__subtitle">Accessory makers</h4>
+                        <p class="block__text">
+                            While most people enjoy casino gambling, sports betting, lottery and bingo playing for the
+                            fun
+                        </p>
+                    </div>
+                    <div class="block__item">
+                        <h4 class="block__subtitle">Alterationists</h4>
+                        <p class="block__text">
+                            If you are looking for a new way to promote your business that won’t cost you more money,
+                        </p>
+                    </div>
+                    <div class="block__item">
+                        <h4 class="block__subtitle">Custom Design designers</h4>
+                        <p class="block__text">
+                            If you are looking for a new way to promote your business that won’t cost you more money,
+                        </p>
+                    </div>
+                </div>
             </div>
-            <div class="mid__img">
-                <img src="image/mid__img.png" alt="mid__image">
+            <div class="block-img__inner">
+                <img src="image/mid__img.png" alt="mid__image" class="top-block_img">
             </div>
         </section>
 
-        <section class="section mid-mid__section">
-            <div class="mid-mid__img">
-                <img src="image/mid-mid__img.png" alt="mid-mid__img">
+        <section class="block mid-block">
+            <div class="block-img__inner">
+                <img src="image/mid-mid__img.png" alt="mid-mid__img" class="mid-block_img">
             </div>
-            <div class="mid-mid__text">
-                <span class="text">Easier decision making for</span>
-                <h3 class="h3">Product Managers</h3>
-                <p class="text">The Myspace page defines the individual, his or her characteristics, traits, personal choices and the overall personality of the person. </p>
-                <div class="mid-list__block">
-                    <div class="marker__icon">
-                        <i class="icon"><img src="image/marker__icon.svg" alt="marker-icon"></i>
-                        <i class="icon"><img src="image/marker__icon.svg" alt="marker-icon"></i>
-                        <i class="icon"><img src="image/marker__icon.svg" alt="marker-icon"></i>
+            <div class="block__desc mid-block__desc">
+                <span class="mid-block__suptitle">Easier decision making for</span>
+                <h2 class="block__title mid-block__title">Product Managers</h2>
+                <p class="block__text prof-description">The Myspace page defines the individual, his or her characteristics, traits, personal choices and the overall personality of the person. </p>
+                <div class="list__wrapper">
+                    <div class="list__inner">
+                        <p class="list__text">Never worry about overpaying for your energy again.</p>
                     </div>
-                    <div class="mid-block__text">
-                        <p class="text">Never worry about overpaying for your energy again.</p>
-                        <p class="text">We will only switch you to energy companies that we trust and will treat you right</p>       
-                        <p class="text">We track the markets daily and know where the savings are.</p>
+                    <div class="list__inner">
+                        <p class="list__text">We will only switch you to energy companies that we trust and will treat you right</p>
+                    </div>
+                    <div class="list__inner">
+                       <p class="list__text"> We track the markets daily and know where the savings are.</p>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section class="section mid_btm__section">
-            <div class="text btm__text">
-                <span class="mid_btm__text">Optimisation for</span>
-                <h3 class="h3 mid_btm__h3">Marketers</h3>
-                <p class="text mid_btm__text">
+        <section class="block btm-block">
+            <div class="block__desc">
+                <span class="block__suptitle">Optimisation for</span>
+                <h2 class="block__title">Marketers</h2>
+                <p class="block__text prof-description">
                     Few would argue that, despite the advancements of feminism over the past three decades, women still face a
                     double standard when it comes to their behavior.
                 </p>
-                <h5 class="h5">Accessory makers</h5>
-                <p class="text mid_btm__text">
-                    While most people enjoy casino gambling, sports betting, lottery and bingo playing for the fun
-                </p>
-                <h5 class="h5">Alterationists</h5>
-                <p class="text mid_btm__text">
-                    If you are looking for a new way to promote your business that won’t cost you more money,
-                </p>
-                <h5 class="h5">Custom Design designers</h5>
-                <p class="text mid_btm__text">
-                    If you are looking for a new way to promote your business that won’t cost you more money,
-                </p>
+                <div class="block__list">
+                    <div class="block__item">
+                        <h4 class="block__subtitle">Accessory makers</h4>
+                        <p class="block__text">
+                            While most people enjoy casino gambling, sports betting, lottery and bingo playing for the fun
+                        </p>
+                    </div>
+                    <div class="block__item">
+                        <h4 class="block__subtitle">Alterationists</h4>
+                        <p class="block__text">
+                            If you are looking for a new way to promote your business that won’t cost you more money,
+                        </p>
+                    </div>
+                    <div class="block__item">
+                        <h4 class="block__subtitle">Custom Design designers</h4>
+                        <p class="block__text">
+                            If you are looking for a new way to promote your business that won’t cost you more money,
+                        </p>
+                    </div>
+                </div>
             </div>
-            <div class="mid_btm__img">
-                <img src="image/mid__btm__img.png" alt="mid_bottom__image">
+            <div class="block-img__inner">
+                <img src="image/mid__btm__img.png" alt="btm__img" class="btm-block_img">
             </div>
         </section>
     </main>
 
     <footer class="footer">
-        <div class="logo ftr__logo">
-            <img src="image/main__logo.svg" alt="logo-image">
+        <div class="logo footer__logo">
+            <a href="#" class="footer__logo_link">
+                <img src="image/main__logo.svg" alt="logo" class="logo__img">
+            </a>
         </div>
-        <div class="ftr__info contacts__block">
-            <ul class="list contact__list">
-                <li>About Us</li>
-                <li>Blog</li>
-                <li>Contact</li>
-                <li>FAQ</li>
+        <div class="footer__info contacts__block">
+            <ul class="list__menu">
+                <li class="list__item">
+                    <a href="#">FAQ</a>
+                </li> <li class="list__item">
+                    <a href="#">Contact</a>
+                </li>
+                <li class="list__item">
+                    <a href="#">Blog</a>
+                </li>
+                <li class="list__item">
+                    <a href="#">About Us</a>
+                </li>
             </ul>
         </div>
-        <div class="ftr__info info__block">
-            <ul class="list info__list">
-                <li>Disclaimer</li>
-                <li>Financing</li>
-                <li>Privacy Policy</li>
-                <li>Terms of Service</li>
+        <div class="footer__info info__block">
+            <ul class="list__menu">
+                <li class="list__item">
+                    <a href="#">Terms of Service</a>
+                </li>
+                <li class="list__item">
+                    <a href="#">Privacy Policy</a>
+                </li>
+                <li class="list__item">
+                    <a href="#">Financing</a>
+                </li>
+                <li class="list__item">
+                    <a href="#">Disclaimer</a>
+                </li>
             </ul>
         </div>
-        <div class="ftr__btn">
-            <button class="orange__btn ftr_sign__btn" type="button">Sign up Now</button>
+        <div class="footer__submit">
+            <input type="text" class="footer__input">
+            <a href="#" class="orange__btn footer__btn">Sign up Now</a>
         </div>
     </footer>
 </body>

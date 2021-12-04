@@ -1,0 +1,37 @@
+.mid-block {
+  margin: 80px auto;
+
+  @media screen and(max-width: 767px) {
+    flex-direction: column;
+    width: 95vw;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  &_img {
+    max-width: 532px;
+    margin: 0 auto;
+  }
+}
+
+.list__inner {
+  padding: 5px 0;
+  margin: 10px 0;
+  position: relative;
+
+  &::before {
+    content: url("../../../image/marker__icon.svg");
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 35px;
+    height: 35px;
+    padding-right: 15px;
+  }
+
+  .list__text {
+    padding: 5px 0 5px 60px;
+  }
+}
+

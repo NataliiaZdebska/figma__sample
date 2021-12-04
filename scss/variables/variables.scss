@@ -1,0 +1,36 @@
+$font-main: "Poppins", sans-serif;
+
+$fz_h1: 2.75rem;      //44px
+$fz_h2: 2.25rem;      //36px
+$fz_h3: 1.37rem;      //22px
+$fz_x-reg: 1.125rem;  //18px
+$fz_reg: 1rem;        //16px
+$fz_small: .8rem;     //14px
+
+$clr_title: #2F281E;
+$clr_text: #544837;
+$clr_orange: #FF9900;
+$clr_yellow: #FAB005;
+$clr_purple: #7752BE;
+$clr_red: #F03E3D;
+$clr_blue: #4DADF7;
+$clr_light-blue: #BCD0E5;
+$clr_navy-blue: #173a56;
+
+
+@mixin button_features {
+  font-size: $fz_reg;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.2s linear;
+}
+
+@mixin section {
+  width: 95vw;
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

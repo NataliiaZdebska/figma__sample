@@ -1,0 +1,56 @@
+.block__icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  @media screen and (max-width: 499px) {
+    margin: 0 auto;
+  }
+}
+
+.first__block {
+  &_icon {
+    background-color: $clr_purple;
+  }
+
+  &_img {
+    width: 12px;
+    height: 18px;
+  }
+}
+
+.second__block {
+  &_icon {
+    background-color: $clr_yellow;
+  }
+
+  &_img {
+    width: 18px;
+    height: 18px;
+  }
+}
+
+.third__block {
+  &_icon {
+    background-color: $clr_red;
+  }
+
+  &_img {
+    width: 16px;
+    height: 18px;
+  }
+}
+
+.fourth__block {
+  &_icon {
+    background-color: $clr_blue;
+  }
+
+  &_img {
+    width: 14px;
+    height: 18px;
+  }
+}
