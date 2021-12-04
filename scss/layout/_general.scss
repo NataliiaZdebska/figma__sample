@@ -1,0 +1,38 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.body {
+  font-family: $font-main;
+}
+
+a {
+  text-decoration: none;
+  color: $clr_title;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2 {
+  color: $clr_title;
+  font-weight: 700;
+}
+
+p {
+  color: $clr_text;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}

@@ -1,0 +1,55 @@
+.benefits {
+  width: 95vw;
+  max-width: 1095px;
+  margin: 110px auto 120px;
+
+  &__title {
+    font-size: calc(22px + 14 * (100vw / 1440));
+    display: block;
+    text-align: center;
+    margin: 0 auto 44px;
+    max-width: 529px;
+  }
+
+  &__blocks {
+    display: flex;
+    justify-content: space-between;
+
+    @media screen and (max-width: 767px) {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    @media screen and (max-width: 499px) {
+      flex-direction: column;
+    }
+  }
+
+  @media screen and (max-width: 767px) {
+    width: 90vw;
+  }
+}
+
+.test__block {
+  width: 22%;
+  padding: 10px;
+
+  &_title {
+    font-size: $fz_h3;
+    font-weight: 600;
+    margin: 1.3em 0 .8em;
+  }
+
+  &_text {
+    font-weight: 500;
+  }
+
+  @media screen and (max-width: 767px) {
+    width: 48%;
+  }
+
+  @media screen and (max-width: 499px) {
+    width: 90vw;
+    text-align: center;
+  }
+}

@@ -1,0 +1,158 @@
+.orange__btn {
+  @include button_features;
+  font-weight: 700;
+  color: #ffffff;
+  background-color: $clr_orange;
+  border: 1px solid $clr_orange;
+
+  &:hover {
+    box-shadow: 2px 2px #fff, 4px 4px $clr_orange;
+    top: -4px;
+    left: -4px;
+  }
+}
+
+//start of header section
+
+.btn__block {
+  @media screen and (max-width: 767px) {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+  }
+}
+
+.in__btn {
+  @include button_features;
+  color: $clr_navy-blue;
+  background-color: #ffffff;
+  font-weight: 700;
+  border: 1px solid rgba(188, 208, 229, 1);
+  margin-left: 1em;
+  padding: 11px 22px;
+
+  &:hover {
+    box-shadow: 2px 2px white, 4px 4px rgba(188, 208, 229, 1);
+    top: -4px;
+    left: -4px;
+  }
+
+  @media screen and (max-width: 1024px) {
+    margin-left: .3em;
+    width: 47%;
+  }
+}
+
+.up__btn {
+  margin-left: 1em;
+  padding: 11px 22px;
+
+  @media screen and (max-width: 1024px) {
+    margin-left: .3em;
+    width: 47%;
+  }
+}
+//the end of header section
+
+
+//top-section buttons
+.top-section__btns {
+  width: 73%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  padding: 10px 0;
+
+  @media screen and (max-width: 1199px) {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  @media screen and (max-width: 767px) {
+    margin: 0 auto;
+    width: 100%;
+    justify-content: space-evenly;
+  }
+
+  @media screen and (max-width: 499px) {
+    flex-direction: column;
+  }
+}
+
+.start__btn {
+  padding: 15px 40px;
+
+  @media screen and (max-width: 1199px) {
+    width: 100%;
+  }
+
+  @media screen and (max-width: 767px) {
+    width: 47%;
+  }
+
+  @media screen and (max-width: 499px) {
+    width: 100%;
+  }
+}
+
+.video__link {
+  @include button_features;
+  padding: 14px;
+  font-weight: 600;
+  color: $clr_orange;
+  text-decoration: underline;
+  border: 1px solid transparent;
+
+  &:hover {
+    font-size: 17px;
+  }
+}
+
+.play__icon {
+  width: 20px;
+  height: 17px;
+}
+//the end of top-section buttons
+
+
+//benefits section button
+.benefits__btn {
+
+  @media screen and (max-width: 767px) {
+    width: 90vw;
+  }
+}
+
+.sign-now__btn {
+  display: block;
+  text-align: center;
+  padding: 14px 32px;
+  margin: 25px auto;
+  max-width: 175px;
+
+  @media screen and (max-width: 499px) {
+    width: 100%;
+    max-width: 475px;
+  }
+}
+
+.footer__btn {
+  @include button_features;
+  font-weight: 700;
+  width: 100%;
+  max-width: 133px;
+  padding: 8px 15px;
+
+  @media screen and (max-width: 767px) {
+    width: 90vw;
+    margin-bottom: 3em;
+  }
+
+  @media screen and (max-width: 499px) {
+    width: 100%;
+    max-width: 90vw;
+    text-align: center;
+  }
+}
